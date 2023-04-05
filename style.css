@@ -1,0 +1,7 @@
+#headline {
+    background-image: url("./Backgrounds/desktop-header-background.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: 40%;
+    height: 100vh;
+}
