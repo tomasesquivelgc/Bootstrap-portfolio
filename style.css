@@ -11,6 +11,10 @@
     height: 60vh;
 }
 
+#project-btn {
+    display: none;
+}
+
 #art-print {
     background-image: linear-gradient(to bottom, hsla(0, 0%, 15%, 0), hsla(0, 0%, 15%, 0.9)),
     url("./Project-images/desktop-grid3-background-A.png");
@@ -39,4 +43,8 @@
 .card:hover h3,
 .card:hover p {
     display: none;
+}
+
+.card:hover #project-btn {
+    display: block;
 }
