@@ -31,3 +31,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.card:hover {
+    border: 1px solid black;
+}
+
+.card:hover h3,
+.card:hover p {
+    display: none;
+}
