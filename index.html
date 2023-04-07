@@ -1,16 +1,192 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <script src='main.js'></script>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand navbar-light bg-secondary row px-5 container-fluid">
+    <a class="navbar-brand text-light col-sm-8 px-5">My logo</a>
+    <ul class="container-fluid col-sm-3 pr-3 navbar-nav">
+      <li class="navitem">
+        <a class="nav-link  text-light" href="#">Portfolio</a>
+      </li>
+      <li class="navitem">
+        <a class="nav-link text-light" href="#">About</a>
+      </li>
+      <li class="navitem">
+        <a class="nav-link text-light" href="#">Contact</a>
+      </li>
+      <li class="navitem">
+        <a class="nav-link text-light" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg></a>
+      </li>
+    </ul>  
+  </nav>
+  <section class="row container-fluid bg-dark p-5" id="headline">
+    <ul class="col-sm-2 p-2 mt-5" id="social-media-headline">
+      <li class="m-3">
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-GitHub.png" alt="Github icon"></a>
+      </li>
+      <li class="m-3">
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Linkedin.png" alt="Linkedin icon"></a>
+      </li>
+      <li class="m-3">
+        <a class="p-2 my-5" href="#"><img src="Icons/angelist-1.png" alt="Angelist icon"></a>
+      </li>
+      <li class="m-3">
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Twitter.png" alt="Twitter icon"></a>
+      </li>
+      <li class="m-3">
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Medium.png" alt="Medium icon"></a>
+      </li>
+    </ul>
+    <div class=" col-sm-4 mt-4">
+      <h1 class="text-warning">Hey There.</br>I'm Alex.</h1>
+      <h2 class="text-light">I'm a Software Developer</h2>
+      <p class="text-light">I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded,</br>don't hesitate to contact me.</p>
+      </div>
+  </section>
+  <section class="container-fluid row bg-light p-5" id="work-section">
+    <h2 class="p-5">My Recent Works<img src="./vectors/Vector.png" class="col-sm-9"></h2>
+    <div class="container row mb-3">
+      <img src="./Project-images/yoga-img.jpg" class="col-sm-6 mx-5">
+      <div class="card col-sm-4 border-light bg-light">
+        <h3 class="card-title">Multi-Post Stories</h3>
+        <p class="card-text pt-3">A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+        <p>
+          <span class="badge bg-light text-secondary border">CSS</span>
+          <span class="badge bg-light text-secondary border">HTML</span>
+          <span class="badge bg-light text-secondary border">Bootstrap</span>
+          <span class="badge bg-light text-secondary border">Ruby</span>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="card col-sm m-4" id="art-print">
+          <h3 class="card-title text-light">Profesional Art Printing Data More</h3>
+          <p class="card-text text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p>
+            <span class="badge bg-secondary text-light border p-2">HTML</span>
+            <span class="badge bg-secondary text-light border p-2">Bootstrap</span>
+            <span class="badge bg-secondary text-light border p-2">Ruby</span>
+          </p>
+          <button type="button" class="btn btn-warning text-light btn-lg" id="project-btn">See project</button>
+        </div>
+        <div class="card col-sm m-4" id="data-dash">
+          <h3 class="card-title text-light">Data Dashboard Healthcare</h3>
+          <p class="card-text text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p>
+            <span class="badge bg-secondary text-light border p-2">HTML</span>
+            <span class="badge bg-secondary text-light border p-2">Bootstrap</span>
+            <span class="badge bg-secondary text-light border p-2">Ruby</span>
+          </p>
+          <button type="button" class="btn btn-warning text-light btn-lg" id="project-btn">See project</button>
+        </div>
+        <div class="card col-sm m-4" id="web-port">
+          <h3 class="card-title text-light">Website Portfolio </h3>
+          <p class="card-text text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p>
+            <span class="badge bg-secondary text-light border p-2">HTML</span>
+            <span class="badge bg-secondary text-light border p-2">Bootstrap</span>
+            <span class="badge bg-secondary text-light border p-2">Ruby</span>
+          </p>
+          <button type="button" class="btn btn-warning text-light btn-lg" id="project-btn">See project</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-sm m-4" id="art-print">
+          <h3 class="card-title text-light">Profesional Art Printing Data More</h3>
+          <p class="card-text text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p>
+            <span class="badge bg-secondary text-light border p-2">HTML</span>
+            <span class="badge bg-secondary text-light border p-2">Bootstrap</span>
+            <span class="badge bg-secondary text-light border p-2">Ruby</span>
+          </p>
+          <button type="button" class="btn btn-warning text-light btn-lg" id="project-btn">See project</button>
+        </div>
+        <div class="card col-sm m-4" id="data-dash">
+          <h3 class="card-title text-light">Data Dashboard Healthcare</h3>
+          <p class="card-text text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p>
+            <span class="badge bg-secondary text-light border p-2">HTML</span>
+            <span class="badge bg-secondary text-light border p-2">Bootstrap</span>
+            <span class="badge bg-secondary text-light border p-2">Ruby</span>
+          </p>
+          <button type="button" class="btn btn-warning text-light btn-lg" id="project-btn">See project</button>
+        </div>
+        <div class="card col-sm m-4" id="web-port">
+          <h3 class="card-title text-light">Website Portfolio </h3>
+          <p class="card-text text-light">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+          <p>
+            <span class="badge bg-secondary text-light border p-2">HTML</span>
+            <span class="badge bg-secondary text-light border p-2">Bootstrap</span>
+            <span class="badge bg-secondary text-light border p-2">Ruby</span>
+          </p>
+          <button type="button" class="btn btn-warning text-light btn-lg" id="project-btn">See project</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid bg-dark pt-5" id="about-section">
+    <div class="container mb-5">
+      <h2 class="text-warning">About me</h2>
+      <p class="text-light col-sm-5">Hey there! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+      <button type="button" class="btn btn-warning text-light col-sm-3">Get my resume</button>
+    </div>
+    <div class="row border-top border-secondary">
+      <ul class="text-light col-sm-4">
+        <li><h3>Language</h3></li>
+        <li>Javascript</li>
+        <li>Ruby</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <ul class="text-light col-sm-4">
+        <li><h3>Language</h3></li>
+        <li>Javascript</li>
+        <li>Ruby</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <ul class="text-light col-sm-4">
+        <li><h3>Language</h3></li>
+        <li>Javascript</li>
+        <li>Ruby</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+  </section>
+  <section class="container-fluid bg-light pt-5" id="contact-section">
+    <div class="row mx-auto">
+      <h2 class="col-sm-6">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+      <div class="mb-3 col-sm-6">
+        <label for="fullName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="fullName">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email">
+        <textarea class="mt-4" style="width: 100%"></textarea>
+        <button type="button" class="btn btn-warning text-light">Get in touch</button>
+      </div>
+    </div>
+  </section>
+  <footer style="width: 100%;">
+    <div class="col-sm-12" id="social-media-headline" style="height: 1vh;display: flex;width: 100%; justify-content: center;">
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-GitHub.png" alt="Github icon"></a>
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Linkedin.png" alt="Linkedin icon"></a>
+        <a class="p-2 my-5" href="#"><img src="Icons/angelist-1.png" alt="Angelist icon"></a>
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Twitter.png" alt="Twitter icon"></a> 
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Medium.png" alt="Medium icon"></a>  
+    </div>
+  </footer>
 </body>
 </html>

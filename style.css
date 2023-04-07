@@ -1,0 +1,50 @@
+#headline {
+    background-image: url("./Backgrounds/desktop-header-background.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: 40%;
+    height: 100vh;
+}
+
+.card {
+    justify-content: flex-end;
+    height: 60vh;
+}
+
+#project-btn {
+    display: none;
+}
+
+#art-print {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 15%, 0), hsla(0, 0%, 15%, 0.9)),
+    url("./Project-images/desktop-grid3-background-A.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#data-dash {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 15%, 0), hsla(0, 0%, 15%, 0.9)),
+    url("./Project-images/data-dashboard-hovered.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#web-port {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 15%, 0), hsla(0, 0%, 15%, 0.9)),
+    url("./Project-images/web-portfolio-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:hover {
+    border: 1px solid black;
+}
+
+.card:hover h3,
+.card:hover p {
+    display: none;
+}
+
+.card:hover #project-btn {
+    display: block;
+}
