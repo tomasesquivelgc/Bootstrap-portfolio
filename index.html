@@ -166,11 +166,27 @@
       </ul>
     </div>
   </section>
-  <section class="container bg-light pt-5" id="contact-section">
-    <div class="row">
-    <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-    
+  <section class="container-fluid bg-light pt-5" id="contact-section">
+    <div class="row mx-auto">
+      <h2 class="col-sm-6">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+      <div class="mb-3 col-sm-6">
+        <label for="fullName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="fullName">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email">
+        <textarea class="mt-4" style="width: 100%"></textarea>
+        <button type="button" class="btn btn-warning text-light">Get in touch</button>
+      </div>
     </div>
   </section>
+  <footer style="width: 100%;">
+    <div class="col-sm-12" id="social-media-headline" style="height: 1vh;display: flex;width: 100%; justify-content: center;">
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-GitHub.png" alt="Github icon"></a>
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Linkedin.png" alt="Linkedin icon"></a>
+        <a class="p-2 my-5" href="#"><img src="Icons/angelist-1.png" alt="Angelist icon"></a>
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Twitter.png" alt="Twitter icon"></a> 
+        <a class="p-2 my-5" href="#"><img src="Icons/Icon-Medium.png" alt="Medium icon"></a>  
+    </div>
+  </footer>
 </body>
 </html>
